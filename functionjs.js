@@ -1,3 +1,4 @@
+//Functions for SCI
 var fruitArray = ["Apple", "Blackberry", "Orange", "Peach", "Strawberry", "Grape". "Raspberry"]
 
 Function getBerries(){

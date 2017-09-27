@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  var countWords(str){
+    words = str.split(" ");
+    for (i = 0; i < words.length; i++){
+      if (words[i] != "")
+      count += 1;
+    }
+    document.theForm.results.value =
+    "There are "+
+    count +
+    "words in the sentence you wrote!";
+  }
+</script>
+</head>
+<body>
+  <form name="theForm">
+    <textarea name-inStr rows=5 cols=90>
+    </textarea>
+    <input type=button value="Count words"
+    onClick="countWords(document.theForm.inStr.value)";>
+  <input type=button name="theButton" value="Clear Results"
+  onClick='document.theForm.results/value=""';>
+  Results<br>
+  <textarea name=results rows=5 cols=90>
+  </textarea>
+</form>
+</body>
+</html>
